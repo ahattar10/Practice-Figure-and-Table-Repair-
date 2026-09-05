@@ -49,6 +49,12 @@ td {
     border: 1px solid var(--border)
 }
 
+.table-holder th:nth-child(n+2),
+.table-holder td:nth-child(n+2) {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
 .source {
     font-size: .875rem;
     color: #5c6670
