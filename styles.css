@@ -59,7 +59,7 @@ td {
     overflow-x: auto;
 }
 
-.table-holder:focus-visible {
+.table-holder:focus {
     outline: 3px solid var(--maroon);
     outline-offset: 2px;
 }
