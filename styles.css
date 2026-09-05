@@ -55,6 +55,9 @@ td {
     font-variant-numeric: tabular-nums;
 }
 
+.table-holder {
+    overflow-x: auto;
+}
 .source {
     font-size: .875rem;
     color: #5c6670
