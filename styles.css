@@ -58,6 +58,11 @@ td {
 .table-holder {
     overflow-x: auto;
 }
+
+.table-holder:focus-visible {
+    outline: 3px solid var(--maroon);
+    outline-offset: 2px;
+}
 .source {
     font-size: .875rem;
     color: #5c6670
